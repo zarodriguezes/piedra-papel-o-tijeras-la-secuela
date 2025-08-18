@@ -47,7 +47,7 @@ def jugar_multijugador():
     ultima_partida[:] = ["Multijugador", f"{nombre1} ({j1})", f"{nombre2} ({j2})", resultado]
 
 def ver_estadisticas():
-    print("\n--- Última Partida ---")
+    print("Última Partida")
     print("Modo:", ultima_partida[0])
     print("Jugador 1:", ultima_partida[1])
     print("Jugador 2:", ultima_partida[2])
@@ -55,7 +55,7 @@ def ver_estadisticas():
 
 def menu():
     while True:
-        print("\n--- Menú Principal ---")
+        print("Menú Principal ")
         print("1. Contra la computadora")
         print("2. Multijugador (2 jugadores)")
         if ultima_partida:  
@@ -76,3 +76,4 @@ def menu():
             print("Opción no válida.")
 
 menu()
+
